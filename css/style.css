@@ -1,0 +1,434 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/*Resolução do posicionamento: 1366x768*/
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #630208;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 20;
+}
+
+.banner {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.menu {
+    position: fixed;
+    left: 30%;
+    top: 1.5em;
+    font-weight: 300;
+    font-size: 16px;
+
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+    transition: .3s;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+
+}
+
+.logo {
+    margin: 0.5em 0 0 3em;
+    cursor: pointer;
+}
+
+.logomain {
+    display: block;
+    margin-left: 45%;
+}
+
+main img {
+    margin-top: 90px;
+}
+
+.article-index {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 1200px;
+}
+.article-index p{
+    margin: 15px 0 15px 260px;
+}
+.v1 {
+    margin-left: 20%;
+}
+
+.v2 {
+    margin-left: 5%;
+}
+
+main h3 {
+    margin: 10% 0 0 20%;
+}
+
+main p {
+    margin: 0 0 0 20%;
+}
+
+footer {
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    height: 100px;
+    background-color: #630208;
+}
+
+footer img {
+    margin: 20px 0 0 550px;
+}
+
+.personagem-v h2 {
+    position: absolute;
+    left: 400px;
+    top: 710px;
+}
+
+.personagem-v img {
+    top: 660px;
+    left: 200px;
+    position: absolute;
+}
+
+.personagem-v aside {
+    position: absolute;
+    top: 745px;
+    left: 400px;
+    width: 650px;
+}
+
+
+.personagens-h1 {
+    text-align: center;
+    margin-top: 100px
+}
+
+.evey {
+    margin-top: 350px;
+}
+
+.evey h2 {
+    margin: 30px 0 0 400px;
+}
+
+.evey img {
+    position: absolute;
+    left: 200px;
+    top: 930px;
+}
+
+
+.evey aside {
+    position: absolute;
+    left: 400px;
+    top: 1015px;
+    width: 650px;
+}
+
+.adam h2 {
+    position: absolute;
+    top: 1250px;
+    left: 400px;
+}
+
+.adam img {
+    position: absolute;
+    left: 200px;
+    top: 1200px;
+}
+
+.adam aside {
+    position: absolute;
+    left: 400px;
+    top: 1285px;
+    width: 650px;
+}
+
+.main-mascara {
+    margin-top: 50px;
+}
+
+.main-mascara img {
+    margin-left: 350px;
+}
+
+.main-mascara h2 {
+    margin-left: 620px;
+    margin-top: 25px;
+}
+
+.main-mascara h1 {
+    margin-left: 600px;
+}
+.main-mascara p {
+    margin-top: 50px;
+    width: 300px;
+}
+.mascara-dois {
+    position: absolute;
+    top: 1130px;
+    left: 485px;
+    font-weight: 300;
+}
+.texto-esquerdo {
+    margin-top: 60px;
+    height: 315px;
+    margin-left: 350px;
+    float: left;
+    width: 340px;
+}
+
+.texto-direito {
+    font-weight: 300;
+    margin-top: 90px;
+    margin-left: 0;
+    margin-right: 300px;
+    float: right;
+    width: 340px;
+    height: 315px;
+}
+
+.main-historia {
+    margin-top: 50px;
+
+}
+
+.main-historia h1 {
+    margin-top: 100px;
+    margin-left: 600px;
+}
+
+.main-historia h2 {
+    position: absolute;
+    top: 650px;
+    left: 270px;
+}
+
+.main-historia p {
+    position: absolute;
+    top: 700px;
+    left: 10px;
+    width: 370px;
+    font-size: 15px;
+
+}
+
+.main-historia img {
+    float: right;
+    margin-right: 200px;
+}
+
+td,
+th {
+    border: 0.5px solid #000;
+}
+
+th,
+td {
+    padding: 10px 25px;
+}
+
+th {
+    text-align: left;
+}
+.textos-mascara{
+    margin-top: 20px;
+}
+table {
+    border: 3px solid #000;
+    position: absolute;
+    right: 200px;
+    top: 950px;
+    width: 415px;
+    box-shadow: 0px 0 10px #00000080;
+}
+
+.hq {
+    position: absolute;
+    top: 20%;
+    height: 1444px;
+    width: 100%;
+    
+}
+
+.hq h1 {
+    text-align: center;
+    margin: 350px 0 70px 0;
+    font-size: 24px;
+}
+
+.hq img {
+    float: left;
+    margin: 40px 240px;
+}
+
+.hq p {
+    float: right;
+    position: absolute;
+    top: 520px;
+    left: 400px;
+    width: 400px;
+}
+
+.hq h2 {
+    position: absolute;
+    top: 470px;
+    left: 670px;
+}
+
+.impacto img {
+    float: right;
+    position: absolute;
+
+    top: 980px
+}
+
+.impacto p {
+    position: absolute;
+    top: 1100px;
+    left: 260px;
+    margin: 0;
+    width: 400px;
+}
+
+.impacto h2 {
+    float: left;
+    width: 500px;
+    height: 29px;
+    margin: 600px 0 0 255px;
+}
+
+footer-page5 footer {
+    width: 100%;
+}
+
+.contato {
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    height: 1000px;
+}
+
+.contato h1 {
+    text-align: center;
+}
+
+.contato fieldset {
+    float: left;
+    width: 300px;
+    margin: 50px 0 0 10px;
+    padding: 15px;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+}
+
+.contato fieldset legend {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.contato form {
+    margin: 50px;
+    float: left;
+}
+
+input {
+    display: block;
+    width: 350px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #c4c4c4;
+    margin: 15px;
+    padding: 5px;
+
+}
+
+.contato button {
+    margin-left: 250px;
+    padding: 10px 45px;
+    background-color: #96030D;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    transition: .4s;
+}
+
+.contato button:hover {
+    border-radius: 0;
+    filter: brightness(50%);
+}
+
+.contato img {
+    margin: 100px 100px 0 0;
+    float: right;
+
+}
+
+.autor {
+    position: absolute;
+    width: 100%;
+    top: 1100px;
+    left: 200px;
+}
+
+.autor h1 {
+    position: absolute;
+    top: 10%;
+    left: 335px;
+    width: 100%;
+}
+
+.autor img {
+    float: left;
+    margin-top: 0;
+    border-radius: 100%;
+    width: 300px;
+}
+
+.autor p {
+    position: absolute;
+    top: 100px;
+    left: 340px;
+    width: 500px;
+    margin: 0;
+    font-size: 14px;
+}
+
+.autor .email {
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.autor .texto-final {
+    font-size:14px;
+    margin: 80px 0 0 0;
+}
